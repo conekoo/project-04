@@ -1,0 +1,38 @@
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+    
+}
+
+li{
+    text-decoration-color: red;
+    color: red;
+    text-emphasis-color: red;
+}
+
+li.note[value="2"] {
+    
+    color: dodgerblue;
+}
+
+.note{
+    font-size: 40px;;
+}
+
+#id-selector-demo{
+    color: orangered;
+}
+
+li[value="4"]{
+    color: magenta;
+}
+
+li[value="5"]{
+    color:purple
+}
+
+*{
+    text-align: left;
+    font-weight: normal;
+}
